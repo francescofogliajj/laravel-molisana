@@ -1,0 +1,38 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 0;
+
+    .card {
+        width: calc(100% / 3 - 10px);
+        margin: 5px;
+        position: relative;
+
+        img {
+            display: block;
+        }
+
+        .card-text {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(#B2E5FC, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: all 0.8s;
+
+            a {
+                color: white;
+                font-size: 24px;
+            }
+        }
+
+        &:hover .card-text {
+            opacity: 1;
+        } 
+    }
+}
