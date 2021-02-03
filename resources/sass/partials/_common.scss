@@ -8,6 +8,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+img {
+    max-width: 100%;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -23,10 +27,10 @@ a {
         font-size: 0;
 
         &.active {
-            background-color: #B2E5FC;
+            background-color: $mainColor;
         }
         &:hover {
-            background-color: #B2E5FC;
+            background-color: $mainColor;
         } 
 
         a {
@@ -41,6 +45,3 @@ a {
     margin: 0 auto;
 }
 
-img {
-    max-width: 100%;
-}

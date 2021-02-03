@@ -9,6 +9,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -39,15 +43,17 @@ a {
   margin: 0 auto;
 }
 
-img {
-  max-width: 100%;
-}
-
 header {
   text-align: center;
 }
 header img {
   margin: 50px 0;
+}
+
+h2 {
+  margin-left: 3px;
+  text-transform: uppercase;
+  color: #002D75;
 }
 
 .cards {
