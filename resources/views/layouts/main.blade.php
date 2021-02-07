@@ -6,7 +6,7 @@
 
         <title>La Molisana</title>
 
-        <!-- css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.css" integrity="sha512-9iWaz7iMchMkQOKA8K4Qpz6bpQRbhedFJB+MSdmJ5Nf4qIN1+5wOVnzg5BQs/mYH3sKtzY+DOgxiwMz8ZtMCsw==" crossorigin="anonymous" />
         <link rel="stylesheet" href="{{ asset("css/app.css") }}">
         
     </head>
@@ -14,8 +14,10 @@
 
         @include('partials.header')
 
-        @yield('content')
-
+        <main>
+            @yield('content')
+        </main>
+        
         <footer></footer>
         
     </body>
