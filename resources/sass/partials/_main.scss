@@ -1,8 +1,7 @@
-
 h2 {
     margin-left: 3px;
     text-transform: uppercase;
-    color: #002D75;
+    color: $brandColor;
 }
 
 .cards {
@@ -47,7 +46,7 @@ h2 {
 .wrapper {
     padding: 30px 0;
     text-align: center;
-    color: #002D75;
+    color: $brandColor;
     background-color: #B8DAE4;
     position: relative;
     
@@ -66,7 +65,7 @@ h2 {
             color: white;
             font-size: 50px;
             :hover {
-                color: #002D75;
+                color: $brandColor;
             }
         }
         
@@ -82,7 +81,7 @@ h2 {
             color: white;
             font-size: 50px;
             :hover {
-                color: #002D75;
+                color: $brandColor;
             }
         }
     }
